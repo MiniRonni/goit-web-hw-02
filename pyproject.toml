@@ -1,0 +1,19 @@
+[project]
+name = "web-hw-02"
+version = "0.1.0"
+description = "Personal Assistant CLI"
+authors = [
+    {name = "Veronika Yeremenko",email = "ver.sab1eremenk0@gmail.com"}
+]
+readme = "README.md"
+requires-python = "3.11.9"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "web_hw_02", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
