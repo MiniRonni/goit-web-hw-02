@@ -11,4 +11,4 @@ Personal Assistant CLI
 
 ## Як запустити
 ```bash
-python hw-02.py
+python tests/hw-02.py
